@@ -1,6 +1,6 @@
 # Basic Image Processing 
 
-Bài tập môn Thị Giác Máy (Computer Vision).
+Bài tập môn Thị Giác Máy.
 Dự án xây dựng một quy trình xử lý ảnh cơ bản sử dụng **Python**, **OpenCV**.
 
 ## Yêu cầu bài toán (Project Requirements)
@@ -11,8 +11,8 @@ Chương trình thực hiện các tác vụ xử lý ảnh sau:
 3. [x] Hiển thị ảnh gốc.
 4. [x] Tách và hiển thị các kênh màu riêng biệt (R, G, B).
 5. [x] Chuyển đổi thứ tự kênh màu (Channel Swapping: BGR -> RGB) và lưu ảnh.
-6. [x] Chuyển đổi sang ảnh xám (Grayscale).
-7. [x] Chuyển đổi sang ảnh nhị phân (Binary/Thresholding).
+6. [x] Chuyển đổi sang ảnh xám.
+7. [x] Chuyển đổi sang ảnh nhị phân.
 
 ## Cài đặt & Môi trường (Installation)
 
@@ -38,6 +38,7 @@ basic_image_processing/
 ### 2. Cài đặt thư viện
 
 ```bash
+cd basic_image_processing
 pip install -r requirements.txt
 ```
 
@@ -57,4 +58,5 @@ Các cửa sổ ảnh sẽ hiện lên lần lượt.
 Nhấn bất kỳ phím nào vào cửa sổ ảnh để đóng chương trình.
 
 Ảnh sau khi xử lý sẽ được lưu tự động vào thư mục assets/ với tên output_swapped.jpg.
+
 
