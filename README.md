@@ -3,7 +3,9 @@
 > **Repository** lưu trữ toàn bộ bài tập thực hành, đồ án và tài liệu nghiên cứu của môn **Thị Giác Máy**.
 >
 > **Sinh viên thực hiện:** Nguyễn Hoàng Long
-> **Mã sinh viên:** 2321060041  
+> 
+> **Mã sinh viên:** 2321060041
+> 
 > **Giảng viên hướng dẫn:** GVC.TS Đoàn Công Luận
 
 ---
