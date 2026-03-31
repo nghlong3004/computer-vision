@@ -1,0 +1,19 @@
+Input image: D:\Long\project\computer-vision\exercise_3\assets\image.png
+
+Task 1: Edge detection and contour drawing.
+Profile 1:
+- Gaussian blur kernel: 3
+- Canny low/high: 50/150
+- Detected contour count: 15
+
+Profile 2:
+- Gaussian blur kernel: 7
+- Canny low/high: 120/250
+- Detected contour count: 6
+
+Generated files:
+- 01_original: D:\Long\project\computer-vision\exercise_3\outputs\edge\01_original.png
+- 02_edges_profile_1: D:\Long\project\computer-vision\exercise_3\outputs\edge\02_edges_profile_1.png
+- 03_contours_profile_1: D:\Long\project\computer-vision\exercise_3\outputs\edge\03_contours_profile_1.png
+- 04_edges_profile_2: D:\Long\project\computer-vision\exercise_3\outputs\edge\04_edges_profile_2.png
+- 05_contours_profile_2: D:\Long\project\computer-vision\exercise_3\outputs\edge\05_contours_profile_2.png

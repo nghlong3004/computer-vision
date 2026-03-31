@@ -1,0 +1,29 @@
+Input image: D:\Long\project\computer-vision\exercise_3\assets\image.png
+
+Task 2: Detect all possible lines and then filter short/near lines.
+Stage 1 - All lines:
+- Hough threshold: 30
+- minLineLength: 10
+- maxLineGap: 18
+- Hough candidate lines: 16
+- Number of lines after dedupe: 9
+
+Stage 2 - Remove short segments:
+- Hough threshold: 40
+- minLineLength: 28
+- maxLineGap: 10
+- Hough candidate lines (profile 2): 8
+- Removed short lines: 4
+- Remaining lines: 5
+
+Stage 3 - Remove near lines:
+- Center-distance suppression: 32.0
+- Angle suppression (deg): 8.0
+- Max rendered lines: 30
+- Removed near-duplicate lines: 1
+- Remaining lines: 4
+
+Generated files:
+- 01_tat_ca_duong_thang: D:\Long\project\computer-vision\exercise_3\outputs\lines\01_tat_ca_duong_thang.png
+- 02_loai_doan_qua_ngan: D:\Long\project\computer-vision\exercise_3\outputs\lines\02_loai_doan_qua_ngan.png
+- 03_loai_duong_qua_gan: D:\Long\project\computer-vision\exercise_3\outputs\lines\03_loai_duong_qua_gan.png

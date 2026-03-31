@@ -1,0 +1,3 @@
+OpenCV Canny: https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html
+OpenCV Hough Lines: https://docs.opencv.org/4.x/d9/db0/tutorial_hough_lines.html
+OpenCV Hough Circles: https://docs.opencv.org/4.x/da/d53/tutorial_py_houghcircles.html

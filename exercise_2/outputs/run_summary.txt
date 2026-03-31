@@ -1,0 +1,18 @@
+Ảnh đầu vào được chọn: D:\Long\project\computer-vision\spatial_smoothing_filtering\assets\anh-mo-ta.jpg
+
+Các file kết quả:
+- 01_original_color: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\01_original_color.png
+- 02_1d_mean_1x5_horizontal: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\02_1d_mean_1x5_horizontal.png
+- 03_1d_weighted_1x5_horizontal: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\03_1d_weighted_1x5_horizontal.png
+- 04_1d_mean_5x1_vertical: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\04_1d_mean_5x1_vertical.png
+- 05_1d_weighted_5x1_vertical: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\05_1d_weighted_5x1_vertical.png
+- 06_2d_mean_3x3: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\06_2d_mean_3x3.png
+- 07_2d_weighted_3x3: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs\07_2d_weighted_3x3.png
+
+Ma trận lọc đã dùng:
+- 1D trung bình (ngang): [1/5, 1/5, 1/5, 1/5, 1/5]
+- 1D có trọng số (ngang): [1, 2, 4, 2, 1] / 10
+- 1D trung bình (dọc): chuyển vị từ ma trận lọc ngang
+- 1D có trọng số (dọc): chuyển vị từ ma trận lọc ngang
+- 2D trung bình 3x3: ones(3x3) / 9
+- 2D có trọng số 3x3: [[1,2,1],[2,8,2],[1,2,1]] / 20

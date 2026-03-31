@@ -1,0 +1,15 @@
+Anh dau vao duoc chon: D:\Long\project\computer-vision\spatial_smoothing_filtering\assets\anh-mo-ta.jpg
+
+Phuong phap duoc chon: Canny Edge Detection + Masking
+- Buoc 1: Tao mat na bien bang Canny tren anh xam.
+- Buoc 2: Tao anh mo toan cuc bang Gaussian Blur.
+- Buoc 3: Neu la bien thi giu pixel anh goc, nguoc lai lay pixel anh mo.
+- Tham so Canny: low=50, high=150
+- Tham so Gaussian: kernel=5x5, sigma=0.0
+
+Cac file ket qua:
+- 01_original: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs_question2\01_original.png
+- 02_blurred: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs_question2\02_blurred.png
+- 03_canny_mask: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs_question2\03_canny_mask.png
+- 04_edge_preserved_result: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs_question2\04_edge_preserved_result.png
+- 05_comparison_panel: D:\Long\project\computer-vision\spatial_smoothing_filtering\outputs_question2\05_comparison_panel.png

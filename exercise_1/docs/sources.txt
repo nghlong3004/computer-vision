@@ -1,0 +1,19 @@
+[1] R. C. Gonzalez and R. E. Woods, Digital Image Processing, 4th ed. New York, NY, USA: Pearson, 2018.
+
+[2] R. Szeliski, Computer Vision: Algorithms and Applications, 2nd ed. Springer, 2022.
+
+[3] G. Bradski and A. Kaehler, Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library. O'Reilly Media, 2016.
+
+[4] S. Papert, "The Summer Vision Project," MIT Artificial Intelligence Group, Memo No. 100, July 1966.
+
+[5] C. R. Harris et al., "Array programming with NumPy," Nature, vol. 585, no. 7825, pp. 357–362, Sep. 2020.
+
+[6] S. Cass, "Top Programming Languages 2023," IEEE Spectrum, Aug. 29, 2025. [Online]. Available: https://spectrum.ieee.org/top-programming-languages-2025.
+
+[7] S. Mallick, "Why does OpenCV use BGR color format?," LearnOpenCV.com. [Online]. Available: https://learnopencv.com/why-does-opencv-use-bgr-color-format/.
+
+[8] F. Chollet, Deep Learning with Python, 2nd ed. Manning Publications, 2021.
+
+[9] T. E. Oliphant, "Python for Scientific Computing," Computing in Science & Engineering, vol. 9, no. 3, pp. 10–20, 2007.
+
+[10] G. van Rossum, B. Warsaw, and N. Coghlan, "PEP 8 – Style Guide for Python Code," Python Enhancement Proposals, Jul. 05, 2001. [Online]. Available: https://peps.python.org/pep-0008/.

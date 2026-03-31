@@ -1,0 +1,32 @@
+Input image: D:\Long\project\computer-vision\exercise_3\assets\image.png
+
+Task 3: Detect circles and filter too large/small/near circles.
+Profile 1 (all candidates):
+- minDist: 45
+- param2: 20
+- minRadius/maxRadius: 14/140
+- Edge support ratio: 0.14
+- Number of circles: 3
+
+Profile 2 (filtered):
+- Radius filter from Profile 1 circles: 35 <= r <= 110
+- minDist: 80
+- param2: 24
+- minRadius/maxRadius: 35/110
+- Edge support ratio: 0.2
+- Max rendered circles: 12
+- Removed as too small/large: 0
+- Removed as near-duplicate: 0
+- Number of remaining circles before final render split: 2
+
+Additional render sets:
+- Render 01 (all true circles): 2
+- Render 02 (big circle only): 1
+- Render 03 (small circle only): 1
+- No-circle image: rendered intentionally without overlays
+
+Generated files:
+- 01_khoanh_tat_ca_hinh: D:\Long\project\computer-vision\exercise_3\outputs\circles\01_khoanh_tat_ca_hinh.png
+- 02_chi_hinh_tron: D:\Long\project\computer-vision\exercise_3\outputs\circles\02_chi_hinh_tron.png
+- 03_chi_hinh_tron_nho: D:\Long\project\computer-vision\exercise_3\outputs\circles\03_chi_hinh_tron_nho.png
+- 04_khong_co_hinh: D:\Long\project\computer-vision\exercise_3\outputs\circles\04_khong_co_hinh.png
