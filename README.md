@@ -21,7 +21,7 @@ COMPUTER-VISION/
 .
 .
 .
-├── final_project/              # Đồ án cuối kỳ
+├── final_project/              # Bài tập cuối kì
 └── README.md                   # Tài liệu tổng quan (File này)
 ```
 ## Cấu trúc chuẩn của từng bài tập
